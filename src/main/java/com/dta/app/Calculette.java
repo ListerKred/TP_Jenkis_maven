@@ -7,11 +7,11 @@ public class Calculette {
         int sumAB = sum(a, b);
         int multiAB = multiplication(a, b);
 
-    public final int sum(int a, int b) {
+    public final int sum(final int a, final int b) {
         final int result = (a+b);
         return result;
     }
-    public final int multiplication(int a,int b) {
+    public final int multiplication(final int a,final int b) {
         final int result = (a*b);
         return result;
     }
