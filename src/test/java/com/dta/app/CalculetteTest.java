@@ -36,7 +36,7 @@ public class CalculetteTest {
 
         Calculette calc = new Calculette();
         int actual = calc.sum(a,b);
-        Assert.assertEquals(expected, actual, 0);
+        Assert.assertEquals(expected, actual);
 
     }
 
@@ -48,7 +48,7 @@ public class CalculetteTest {
 
         Calculette calc = new Calculette();
         int actual = calc.multiplication(a,b);
-        Assert.assertEquals(expected, actual, 0);
+        Assert.assertEquals(expected, actual);
     }
 
 }

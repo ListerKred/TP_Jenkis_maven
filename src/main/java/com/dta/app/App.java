@@ -1,11 +1,13 @@
 package com.dta.app;
 
 /**
- * Hello world!
+ * Class main.
+ * @author Cathy
  *
  */
+
 public class App {
-    public final static void main( String[] args ) {
+    public static final void main(String[] args) {
 
     }
 }
