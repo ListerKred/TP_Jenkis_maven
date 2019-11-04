@@ -5,7 +5,7 @@ package com.dta.app;
  *
  */
 public class App {
-    public static void main( String[] args ) {
+    public final static void main( String[] args ) {
 
     }
 }
