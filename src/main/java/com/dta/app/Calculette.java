@@ -8,11 +8,11 @@ public class Calculette {
         int multiAB = multiplication(a, b);
 
     public final int sum(int a, int b) {
-        int result = (a+b);
+        final int result = (a+b);
         return result;
     }
     public final int multiplication(int a,int b) {
-        int result = (a*b);
+        final int result = (a*b);
         return result;
     }
 }
